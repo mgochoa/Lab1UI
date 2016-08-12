@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="new_contact">New Contact</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="sex">Sex:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+</resources>
