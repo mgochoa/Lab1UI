@@ -6,4 +6,42 @@
     <string name="sex">Sex:</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
+    <string name="born_date">Born Date</string>
+    <string name="dd_mm_yy">DD/MM/YY</string>
+    <string name="setup">Setup</string>
+    <string name="country">Country</string>
+    <string name="telephone">Telephone</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="favorite">Favorite</string>
+    <string-array name="countries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Puerto Rico</item>
+        <item>Republica Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="hobbies_array">
+        <item>Sports</item>
+        <item>Music</item>
+        <item>E-Sports</item>
+        <item>Businesses</item>
+        <item>Culture</item>
+        <item>Art</item>
+        <item>Collecting</item>
+        <item>Gastronomy</item>
+    </string-array>
 </resources>
