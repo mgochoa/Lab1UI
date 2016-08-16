@@ -3,9 +3,7 @@ package co.edu.udea.compuvil.gr5.lab1ui;
 import android.app.DatePickerDialog;
 import android.app.DialogFragment;
 import android.os.Bundle;
-import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Patterns;
 import android.view.View;
@@ -102,11 +100,13 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 }
                 else{
                     Toast.makeText(getBaseContext(),getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
+                    validation++;
                 }
                 //Born date
                 if(mDateDisplay.getText().toString().equals(getResources().getString(R.string.dd_mm_yy))){
                     Toast.makeText(getBaseContext(),getResources().getString(R.string.message), Toast.LENGTH_SHORT).show();
-                };
+                    validation++;
+                }
                 data = data+ "\n " + mDateDisplay.getText().toString();
 
                 //Country

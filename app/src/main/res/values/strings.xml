@@ -8,7 +8,7 @@
     <string name="female">Female</string>
     <string name="born_date">Born Date</string>
     <string name="dd_mm_yy">DD/MM/YY</string>
-    <string name="setup">Setup</string>
+    <string name="setup">Select</string>
     <string name="country">Country</string>
     <string name="telephone">Telephone</string>
     <string name="address">Address</string>

@@ -11,8 +11,9 @@
     tools:context="co.edu.udea.compuvil.gr5.lab1ui.MainActivity">
 
     <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -35,20 +36,20 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/title"
             android:hint="@string/name"
-            android:textSize="15sp"
             android:inputType="textCapWords|textNoSuggestions"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/lastName"
-            android:textSize="15sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/name"
             android:hint="@string/last_name"
             android:inputType="textCapWords|textNoSuggestions"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textSize="15sp" />
 
         <RadioGroup
             android:id="@+id/radioGroup"
@@ -91,7 +92,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
 
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:text="@string/born_date"
                 android:textSize="15sp" />
 
@@ -108,7 +109,7 @@
                 android:id="@+id/btnBd"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:onClick="onClick"
                 android:text="@string/setup"
                 android:textSize="15sp" />
@@ -195,8 +196,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/hobSpinner"
-            android:text="@string/favorite"
             android:layout_marginTop="5dp"
+            android:text="@string/favorite"
             android:textSize="15sp" />
 
         <CheckBox
@@ -232,8 +233,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/show"
-            android:onClick="onClick">
+            android:onClick="onClick"
+            android:text="@string/show">
         </Button>
 
     </LinearLayout>
