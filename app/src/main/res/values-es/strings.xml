@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="new_contact">Nuevo contacto</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="sex">Sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="born_date">Fecha de nacimiento</string>
+    <string name="dd_mm_yy">DD/MM/AA</string>
+    <string name="setup">Configuracion</string>
+    <string name="country">Pais</string>
+    <string name="telephone">Telefono</string>
+    <string name="address">Direccion</string>
+    <string name="email">Correo</string>
+    <string name="favorite">Favorito</string>
+    <string-array name="countries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Puerto Rico</item>
+        <item>Republica Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="hobbies_array">
+        <item>Deportes</item>
+        <item>Musica</item>
+        <item>E-Sports</item>
+        <item>Negocios</item>
+        <item>Cultura</item>
+        <item>Arte</item>
+        <item>Coleccionar</item>
+        <item>Gastronomia</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="show">Mostrar</string>
+    <string name="ex_colombia">ej. Colombia</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="hobbies">Pasatiempo</string>
+    <string name="message">Faltan campos por diligenciar</string>
+</resources>
